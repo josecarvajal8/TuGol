@@ -7,7 +7,7 @@ import { Registro } from './registro';
     Registro,
   ],
   imports: [
-    IonicModule.forChild(Registro),
+   // IonicModule.forChild(Registro),
   ],
   exports: [
     Registro

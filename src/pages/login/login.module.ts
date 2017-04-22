@@ -7,7 +7,7 @@ import { Login } from './login';
     Login,
   ],
   imports: [
-    IonicModule.forChild(Login),
+    //IonicModule.forChild(Login),
   ],
   exports: [
     Login

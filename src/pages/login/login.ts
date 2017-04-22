@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import {Registro} from '../registro/registro';
 
 /**
  * Generated class for the Login page.
@@ -19,6 +20,10 @@ export class Login {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad Login');
+  }
+
+    registro(){
+     this.navCtrl.push(Registro);
   }
 
 }
